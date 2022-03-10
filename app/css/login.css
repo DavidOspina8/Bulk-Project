@@ -1,0 +1,39 @@
+body {
+    min-width: 400px;
+    min-height: 350px;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-content {
+    margin: 10px;
+}
+
+.txt_field input {
+    border: none;
+    text-align: center;
+    border-bottom: 1px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.login button {
+    background-color: rgba(19, 19, 19, 0.829);
+    border: none;
+    border-radius: 3px;
+    width: 50px;
+    height: 30px;
+    color: rgb(245, 244, 244);
+    
+}
+

@@ -1,0 +1,29 @@
+{
+    "name": "New Bulk",
+    "version": "1.0.0.0",
+    "manifest_version": 3,
+    "description": "Aplicación para creacion de Ticket Rutinarios Estaciones",
+    "content_scripts": [{
+        "matches": ["*://helpsdesk.rbsas.co/*"],
+        "js": ["app/other/jquery.js", "app/other/xlsx.full.min.js", "app/script/login.js"],
+        "css": ["app/css/login.css"]
+    }],
+    "icons": {
+        "32": "app/icons/icon_32.png",           
+        "48": "app/icons/icon_48.png",
+        "128": "app/icons/icon_128.png",           
+        "256": "app/icons/icon_256.png"
+    },
+    "action": {
+        "default_popup": "app/html/login.html",
+        "default_icon": {
+            "32": "app/icons/icon_32.png",           
+            "48": "app/icons/icon_48.png",
+            "128": "app/icons/icon_128.png",           
+            "256": "app/icons/icon_256.png"
+        }
+    },
+    "permissions": [
+        "storage"
+    ]
+}
